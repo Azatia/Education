@@ -58,6 +58,46 @@ public class Education {
         int number = Integer.parseInt(Zara);
         System.out.println(Zara);
 
+        // True or False - Boolean
+        int Azat = 33;
+        int Askar = 36;
+        System.out.println(Askar>Azat);
+
+        // AND и OR (&& и ||) http://developer.alexanderklimov.ru/android/java/logic_operators.php
+        boolean x = true;
+        boolean y = true;
+        boolean z = false;
+
+        boolean result = x&&y&&z;
+        System.out.println(result);
+
+        boolean result2 = x || y || z;
+        System.out.println(result2);
+
+        // ! Знак отрицания
+        boolean a = true;
+        boolean b = false;
+        System.out.println(!a); // простыми словами !а не true, нет a это true, значит ответ будет false
+        System.out.println(!b); // b не правда, да, b не правда, значит ответ будет true
+
+        int aa = 10;
+        int bb = 5;
+        boolean cc = aa>bb;
+        System.out.println(cc);
+
+        // http://developer.alexanderklimov.ru/android/java/logic_operators.php
+
+        int f = 20;
+        int g = 50;
+        int h = 200;
+        int l = 201;
+
+        boolean i = f<g | ++h==l; // i = 20<50 или 1+200 = 201
+        System.out.println(i);
+
+
+
+
 
 
 
